@@ -1,6 +1,6 @@
-<svg width="280" height="80" viewBox="0 0 280 80" xmlns="http://www.w3.org/2000/svg">
-  <rect width="280" height="80" fill="none" />
+<svg width="320" height="80" viewBox="0 0 320 80" xmlns="http://www.w3.org/2000/svg">
+  <rect width="320" height="80" fill="none" />
   <circle cx="40" cy="40" r="28" fill="#112E1E" />
-  <text x="40" y="46" dominant-baseline="middle" text-anchor="middle" font-family="Crimson Pro, Georgia, serif" font-size="32" fill="#F8F5EC" font-weight="700">T</text>
-  <text x="90" y="48" font-family="Crimson Pro, Georgia, serif" font-size="32" fill="#112E1E" font-weight="700">TEMPO</text>
+  <text x="40" y="46" dominant-baseline="middle" text-anchor="middle" font-family="Crimson Pro, Georgia, serif" font-size="32" fill="#f8f5ec" font-weight="700">T</text>
+  <text x="90" y="48" font-family="Crimson Pro, Georgia, serif" font-size="32" fill="#112E1E" font-weight="700" letter-spacing="0.15em">TEMPO</text>
 </svg>

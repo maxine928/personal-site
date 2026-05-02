@@ -51,7 +51,7 @@ export default function Home() {
           <div className="space-y-6 lg:pr-8">
             <div>
               <h1 className="font-heading text-6xl sm:text-7xl lg:text-8xl font-semibold leading-none tracking-tight mb-4">
-                Maximos
+                Max Harrison
               </h1>
               <p className="font-heading text-2xl sm:text-3xl text-mid-gray font-normal">
                 Founder, Operator & Investor
