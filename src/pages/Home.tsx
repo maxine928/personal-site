@@ -6,7 +6,7 @@ import Footer from '../components/Footer'
 import ArticleCard from '../components/ArticleCard'
 import OtherThingsModal from '../components/OtherThingsModal'
 import NewsletterForm from '../components/NewsletterForm'
-import capitalPadLogo from '../assets/capitalpad-logo.svg'
+import capitalPadLogo from '../assets/capitalpad-logo.png'
 import tempoLogo from '../assets/tempo-logo.svg'
 import { articles } from '../data/articles'
 
