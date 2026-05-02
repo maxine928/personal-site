@@ -46,25 +46,41 @@ export default function OtherThingsModal({ isOpen, onClose }: OtherThingsModalPr
 
         <div className="space-y-5">
           <div className="p-5 bg-white border border-royal-blue/10 rounded-sm hover:border-royal-blue/30 transition-all">
-            <div className="flex items-center justify-between mb-2">
-              <OwnioLogo />
-              <span className="text-xs font-body text-royal-blue border border-royal-blue/20 px-2 py-0.5 rounded-sm">
-                Building
-              </span>
+            <div className="flex flex-col gap-4 mb-4 text-left">
+              <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+                <div className="flex items-center gap-4">
+                  <div className="flex h-14 w-14 items-center justify-center rounded-full bg-royal-blue/10 text-royal-blue text-lg font-semibold">
+                    O
+                  </div>
+                  <OwnioLogo />
+                </div>
+                <span className="text-xs font-body text-royal-blue border border-royal-blue/20 px-2 py-0.5 rounded-sm">
+                  Building
+                </span>
+              </div>
+              <p className="font-body text-mid-gray text-sm">
+                Own what you live.
+              </p>
             </div>
-            <p className="font-body text-mid-gray text-sm">Own what you live.</p>
           </div>
 
           <div className="p-5 bg-white border border-royal-blue/10 rounded-sm hover:border-royal-blue/30 transition-all">
-            <div className="flex items-center justify-between mb-2">
-              <InternalyLogo />
-              <span className="text-xs font-body text-mid-gray border border-muted-gold/40 px-2 py-0.5 rounded-sm">
-                Failed
-              </span>
+            <div className="flex flex-col gap-4 mb-4 text-left">
+              <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+                <div className="flex items-center gap-4">
+                  <div className="flex h-14 w-14 items-center justify-center rounded-full bg-royal-blue/10 text-royal-blue text-lg font-semibold">
+                    I
+                  </div>
+                  <InternalyLogo />
+                </div>
+                <span className="text-xs font-body text-mid-gray border border-muted-gold/40 px-2 py-0.5 rounded-sm">
+                  Failed
+                </span>
+              </div>
+              <p className="font-body text-mid-gray text-sm">
+                A platform for connecting students to alumni. Hard to monetize students.
+              </p>
             </div>
-            <p className="font-body text-mid-gray text-sm">
-              A platform for connecting students to alumni. Hard to monetize students.
-            </p>
           </div>
         </div>
       </div>
