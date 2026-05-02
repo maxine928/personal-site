@@ -6,6 +6,8 @@ import Footer from '../components/Footer'
 import ArticleCard from '../components/ArticleCard'
 import OtherThingsModal from '../components/OtherThingsModal'
 import NewsletterForm from '../components/NewsletterForm'
+import capitalPadLogo from '../assets/capitalpad-logo.svg'
+import tempoLogo from '../assets/tempo-logo.svg'
 import { articles } from '../data/articles'
 
 function CapitalPadLogo() {
@@ -93,9 +95,11 @@ export default function Home() {
               className="group block rounded-sm border border-royal-blue/20 bg-white px-8 py-8 transition-all hover:border-royal-blue/40"
             >
               <div className="flex flex-col sm:flex-row sm:items-center gap-4 mb-5 text-left">
-                <div className="flex h-14 w-14 flex-shrink-0 items-center justify-center rounded-full bg-royal-blue/10 text-royal-blue text-lg font-semibold">
-                  CP
-                </div>
+                <img
+                  src={capitalPadLogo}
+                  alt="CapitalPad logo"
+                  className="h-10 w-auto flex-shrink-0 mx-auto sm:mx-0"
+                />
                 <div className="min-w-0">
                   <CapitalPadLogo />
                   <p className="font-body text-sm text-mid-gray mt-2 sm:mt-1">
@@ -116,9 +120,11 @@ export default function Home() {
               className="group block rounded-sm border border-royal-blue/20 bg-white px-8 py-8 transition-all hover:border-royal-blue/40"
             >
               <div className="flex flex-col sm:flex-row sm:items-center gap-4 mb-5 text-left">
-                <div className="flex h-14 w-14 flex-shrink-0 items-center justify-center rounded-full bg-royal-blue/10 text-royal-blue text-lg font-semibold">
-                  T
-                </div>
+                <img
+                  src={tempoLogo}
+                  alt="Tempo logo"
+                  className="h-10 w-auto flex-shrink-0 mx-auto sm:mx-0"
+                />
                 <div className="min-w-0">
                   <TempoLogo />
                   <p className="font-body text-sm text-mid-gray mt-2 sm:mt-1">
