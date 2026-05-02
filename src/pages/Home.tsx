@@ -10,22 +10,6 @@ import capitalPadLogo from '../assets/capitalpad-logo.svg'
 import tempoLogo from '../assets/tempo-logo.svg'
 import { articles } from '../data/articles'
 
-function CapitalPadLogo() {
-  return (
-    <span className="font-heading text-xl font-semibold tracking-wide text-charcoal">
-      Capital<span className="text-royal-blue">Pad</span>
-    </span>
-  )
-}
-
-function TempoLogo() {
-  return (
-    <span className="font-heading text-xl font-semibold tracking-widest uppercase text-charcoal">
-      Tempo
-    </span>
-  )
-}
-
 export default function Home() {
   const [modalOpen, setModalOpen] = useState(false)
   const recentArticles = articles.slice(0, 3)
@@ -94,14 +78,16 @@ export default function Home() {
               rel="noopener noreferrer"
               className="group block rounded-sm border border-royal-blue/20 bg-white px-8 py-8 transition-all hover:border-royal-blue/40"
             >
-              <div className="flex flex-col sm:flex-row sm:items-center gap-4 mb-5 text-left">
+              <div className="flex flex-col sm:flex-row sm:items-center sm:gap-6 mb-5 text-left">
                 <img
                   src={capitalPadLogo}
                   alt="CapitalPad logo"
-                  className="h-10 w-auto flex-shrink-0 mx-auto sm:mx-0"
+                  className="h-14 w-auto flex-shrink-0 mx-auto sm:mx-0"
                 />
                 <div className="min-w-0">
-                  <CapitalPadLogo />
+                  <p className="font-heading text-xl font-semibold text-charcoal">
+                    CapitalPad
+                  </p>
                   <p className="font-body text-sm text-mid-gray mt-2 sm:mt-1">
                     Invest in cash-flowing small businesses one deal at a time.
                   </p>
@@ -119,14 +105,16 @@ export default function Home() {
               rel="noopener noreferrer"
               className="group block rounded-sm border border-royal-blue/20 bg-white px-8 py-8 transition-all hover:border-royal-blue/40"
             >
-              <div className="flex flex-col sm:flex-row sm:items-center gap-4 mb-5 text-left">
+              <div className="flex flex-col sm:flex-row sm:items-center sm:gap-6 mb-5 text-left">
                 <img
                   src={tempoLogo}
                   alt="Tempo logo"
-                  className="h-10 w-auto flex-shrink-0 mx-auto sm:mx-0"
+                  className="h-14 w-auto flex-shrink-0 mx-auto sm:mx-0"
                 />
                 <div className="min-w-0">
-                  <TempoLogo />
+                  <p className="font-heading text-xl font-semibold text-charcoal">
+                    TEMPO
+                  </p>
                   <p className="font-body text-sm text-mid-gray mt-2 sm:mt-1">
                     Advisor to a premium fitness brand.
                   </p>

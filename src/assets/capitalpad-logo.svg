@@ -1,4 +1,4 @@
-<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
-  <rect width="120" height="120" rx="60" fill="#191b24" />
-  <text x="50%" y="52%" dominant-baseline="middle" text-anchor="middle" font-family="Crimson Pro, Georgia, serif" font-size="52" fill="#E7B8C7" font-weight="700">CP</text>
+<svg width="80" height="80" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="40" cy="40" r="40" fill="#1d2232" />
+  <text x="40" y="41" dominant-baseline="middle" text-anchor="middle" font-family="Crimson Pro, Georgia, serif" font-size="32" fill="#de9099" font-weight="700" letter-spacing="2">CP</text>
 </svg>
