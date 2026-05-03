@@ -44,7 +44,7 @@ export default function Home() {
 
             <div className="flex items-center gap-2 text-mid-gray font-body">
               <MapPin size={16} className="text-royal-blue shrink-0" />
-              <span>San Francisco, CA</span>
+              <span>Charlotte, NC</span>
             </div>
 
             <p className="font-body text-lg text-charcoal/85 leading-relaxed max-w-xl">
