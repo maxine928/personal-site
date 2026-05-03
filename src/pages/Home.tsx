@@ -6,7 +6,7 @@ import Footer from '../components/Footer'
 import ArticleCard from '../components/ArticleCard'
 import OtherThingsModal from '../components/OtherThingsModal'
 import NewsletterForm from '../components/NewsletterForm'
-import capitalPadLogo from '../assets/capitalpad-logo.png'
+import capitalPadLogo from '../assets/capitalpad-logo-new.png'
 import tempoLogo from '../assets/tempo-logo.png'
 import { articles } from '../data/articles'
 
@@ -44,7 +44,7 @@ export default function Home() {
 
             <div className="flex items-center gap-2 text-mid-gray font-body">
               <MapPin size={16} className="text-royal-blue shrink-0" />
-              <span>San Francisco, CA</span>
+              <span>Charlotte, NC</span>
             </div>
 
             <p className="font-body text-lg text-charcoal/85 leading-relaxed max-w-xl">
@@ -82,7 +82,7 @@ export default function Home() {
                 <img
                   src={capitalPadLogo}
                   alt="CapitalPad logo"
-                  className="h-14 w-auto flex-shrink-0 mx-auto sm:mx-0"
+                  className="h-14 w-14 flex-shrink-0 rounded-full mx-auto sm:mx-0 object-cover"
                 />
                 <div className="min-w-0">
                   <p className="font-heading text-xl font-semibold text-charcoal">

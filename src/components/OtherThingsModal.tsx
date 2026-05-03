@@ -1,4 +1,5 @@
 import { X } from 'lucide-react'
+import ownioLogo from '../assets/ownio-logo.png'
 
 interface OtherThingsModalProps {
   isOpen: boolean
@@ -49,9 +50,11 @@ export default function OtherThingsModal({ isOpen, onClose }: OtherThingsModalPr
             <div className="flex flex-col gap-4 mb-4 text-left">
               <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
                 <div className="flex items-center gap-4">
-                  <div className="flex h-14 w-14 items-center justify-center rounded-full bg-royal-blue/10 text-royal-blue text-lg font-semibold">
-                    O
-                  </div>
+                  <img
+                    src={ownioLogo}
+                    alt="Ownio logo"
+                    className="h-14 w-14 rounded-sm object-cover flex-shrink-0"
+                  />
                   <OwnioLogo />
                 </div>
                 <span className="text-xs font-body text-royal-blue border border-royal-blue/20 px-2 py-0.5 rounded-sm">
