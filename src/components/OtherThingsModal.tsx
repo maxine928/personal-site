@@ -6,21 +6,6 @@ interface OtherThingsModalProps {
   onClose: () => void
 }
 
-function OwnioLogo() {
-  return (
-    <span className="font-heading text-xl font-semibold tracking-tight text-charcoal">
-      ownio
-    </span>
-  )
-}
-
-function InternalyLogo() {
-  return (
-    <span className="font-heading text-lg font-semibold tracking-tight text-charcoal">
-      internaly
-    </span>
-  )
-}
 
 export default function OtherThingsModal({ isOpen, onClose }: OtherThingsModalProps) {
   if (!isOpen) return null
@@ -46,44 +31,36 @@ export default function OtherThingsModal({ isOpen, onClose }: OtherThingsModalPr
         </div>
 
         <div className="space-y-5">
-          <div className="p-5 bg-white border border-royal-blue/10 rounded-sm hover:border-royal-blue/30 transition-all">
-            <div className="flex flex-col gap-4 mb-4 text-left">
-              <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
-                <div className="flex items-center gap-4">
-                  <img
-                    src={ownioLogo}
-                    alt="Ownio logo"
-                    className="h-14 w-14 rounded-sm object-cover flex-shrink-0"
-                  />
-                  <OwnioLogo />
-                </div>
-                <span className="text-xs font-body text-royal-blue border border-royal-blue/20 px-2 py-0.5 rounded-sm">
-                  Building
-                </span>
+          <div className="px-8 py-8 bg-white border border-royal-blue/20 rounded-sm hover:border-royal-blue/40 transition-all">
+            <div className="flex flex-col sm:flex-row sm:items-center sm:gap-6 mb-5 text-left">
+              <img
+                src={ownioLogo}
+                alt="Ownio logo"
+                className="h-14 w-14 rounded-sm object-cover flex-shrink-0 mx-auto sm:mx-0"
+              />
+              <div className="min-w-0">
+                <p className="font-heading text-xl font-semibold text-charcoal">Ownio</p>
+                <p className="font-body text-sm text-mid-gray mt-2 sm:mt-1">Own what you live.</p>
               </div>
-              <p className="font-body text-mid-gray text-sm">
-                Own what you live.
-              </p>
             </div>
+            <p className="font-body text-sm text-charcoal/80 leading-relaxed">
+              <span className="text-royal-blue font-semibold">Building:</span> Own what you live.
+            </p>
           </div>
 
-          <div className="p-5 bg-white border border-royal-blue/10 rounded-sm hover:border-royal-blue/30 transition-all">
-            <div className="flex flex-col gap-4 mb-4 text-left">
-              <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
-                <div className="flex items-center gap-4">
-                  <div className="flex h-14 w-14 items-center justify-center rounded-full bg-royal-blue/10 text-royal-blue text-lg font-semibold">
-                    I
-                  </div>
-                  <InternalyLogo />
-                </div>
-                <span className="text-xs font-body text-mid-gray border border-muted-gold/40 px-2 py-0.5 rounded-sm">
-                  Failed
-                </span>
+          <div className="px-8 py-8 bg-white border border-royal-blue/20 rounded-sm hover:border-royal-blue/40 transition-all">
+            <div className="flex flex-col sm:flex-row sm:items-center sm:gap-6 mb-5 text-left">
+              <div className="flex h-14 w-14 items-center justify-center rounded-sm bg-royal-blue/10 text-royal-blue text-lg font-semibold flex-shrink-0 mx-auto sm:mx-0">
+                I
               </div>
-              <p className="font-body text-mid-gray text-sm">
-                A platform for connecting students to alumni. Hard to monetize students.
-              </p>
+              <div className="min-w-0">
+                <p className="font-heading text-xl font-semibold text-charcoal">Internaly</p>
+                <p className="font-body text-sm text-mid-gray mt-2 sm:mt-1">A platform for connecting students to alumni.</p>
+              </div>
             </div>
+            <p className="font-body text-sm text-charcoal/80 leading-relaxed">
+              <span className="text-mid-gray font-semibold">Failed:</span> Hard to monetize students.
+            </p>
           </div>
         </div>
       </div>
