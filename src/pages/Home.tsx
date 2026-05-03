@@ -50,13 +50,7 @@ export default function Home() {
               companies.
             </p>
 
-            <p className="font-body text-sm text-mid-gray">
-              <span className="font-semibold text-royal-blue">5,247</span> entrepreneurs read my weekly newsletter.
-            </p>
 
-            <div className="max-w-md pt-1">
-              <NewsletterForm variant="hero" />
-            </div>
           </div>
         </div>
       </section>
