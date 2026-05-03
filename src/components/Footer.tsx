@@ -31,16 +31,8 @@ export default function Footer() {
           </a>
         </div>
 
-        <div className="border-t border-cream/10 pt-8 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+        <div className="border-t border-cream/10 pt-8">
           <p className="text-sm text-cream/60 font-body">© 2026 Maximos. All rights reserved.</p>
-          <div className="flex items-center gap-6">
-            <a href="#" className="text-sm text-cream/60 hover:text-cream/90 font-body transition-colors">
-              Privacy
-            </a>
-            <a href="#" className="text-sm text-cream/60 hover:text-cream/90 font-body transition-colors">
-              Terms
-            </a>
-          </div>
         </div>
       </div>
     </footer>
