@@ -3,8 +3,8 @@ import { Twitter, Linkedin } from 'lucide-react'
 export default function Footer() {
   return (
     <footer className="bg-royal-blue text-cream py-16">
-      <div className="max-w-7xl mx-auto px-6">
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-md mb-12">
+      <div className="max-w-7xl mx-auto px-6 flex flex-col items-center">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-md mb-12 w-full">
           <a
             href="https://twitter.com/maximosventures"
             target="_blank"
@@ -31,16 +31,8 @@ export default function Footer() {
           </a>
         </div>
 
-        <div className="border-t border-cream/10 pt-8 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+        <div className="border-t border-cream/10 pt-8 w-full text-center">
           <p className="text-sm text-cream/60 font-body">© 2026 Maximos. All rights reserved.</p>
-          <div className="flex items-center gap-6">
-            <a href="#" className="text-sm text-cream/60 hover:text-cream/90 font-body transition-colors">
-              Privacy
-            </a>
-            <a href="#" className="text-sm text-cream/60 hover:text-cream/90 font-body transition-colors">
-              Terms
-            </a>
-          </div>
         </div>
       </div>
     </footer>
